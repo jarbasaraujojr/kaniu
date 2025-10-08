@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animais para Adoção</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+<div class="header">
+  <div class="header-content">
+    <div class="brand">
+      <img class="header-logo" src="assets/logo.png" alt="Logo Kaniu"/>
+      <!-- se quiser título ao lado da logo, descomente:
+      <h1 class="header-title">Kaniu</h1>
+      -->
+    </div>
+
+    <div class="filters">
+      <div class="filters-inner">
+        <button class="status-filter-btn" data-status="Abrigado">Abrigados</button>
+        <button class="status-filter-btn" data-status="Adotado">Adotados</button>
+        <button class="status-filter-btn" data-status="Internado">Internados</button>
+        <button class="status-filter-btn" data-status="Desaparecido">Desaparecidos</button>
+        <button class="status-filter-btn" data-status="Falecido">Falecidos</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="main-container">
+    <div class="list-container" id="animal-list">
+      <!-- Animais serão renderizados pelo list.js -->
+    </div>
+  </div>
+
+  <script src="js/list.js"></script>
+</body>
+</html>
